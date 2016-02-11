@@ -1,0 +1,24 @@
+// ==========================================================================
+// Container
+// ==========================================================================
+
+
+.grid {
+    @extend %clearfix;
+    @extend .centered;
+    width: 90%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+    // Make nested grid 100%
+    [class*="grid__col--"] > & {
+        width: 100%;
+    }
+
+
+    // Set a max-width grid container
+    @media (min-width: 1100px) {
+        max-width: $g-cont-max-w;
+    }
+}

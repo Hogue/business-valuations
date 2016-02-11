@@ -1,0 +1,54 @@
+// ==========================================================================
+// Base Styles
+// ==========================================================================
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $base__font-size;
+  line-height: ($base__line/$base__font-size);
+  font-family: $font-family--primary;
+}
+
+header {
+  text-align:center;
+
+}
+
+h1 {
+  font-weight: $font-weight--light;
+
+}
+
+h2 {
+  font-family: $font-family--secondary;
+  font-weight: $font-weight--thin;
+}
+
+.twelve {
+  background: red;
+  height: 50px;
+}
+
+.six {
+  background: orange;
+  height: 50px;
+}
+
+.four {
+  background: yellow;
+  height: 50px;
+}
+
+.three {
+  background: green;
+  height: 50px;
+}
+
+.two {
+  background: blue;
+  height: 50px;
+}
